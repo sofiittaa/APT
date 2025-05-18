@@ -7,7 +7,6 @@
     color: rgb(255, 255, 255);
     font-family: "Crimson Text", serif;
     font-size: 45px;
-
     margin-right: 350px;
 }
 
@@ -28,4 +27,14 @@
     text-align: center;
     margin-top: 10px;
     display: list-item;
+}
+
+.footer {
+    color: rgb(255, 255, 255);
+    font-family: "Crimson Text", serif;
+    font-size: 30px;
+    background-color: #004e9c;
+    height: 50px;
+    margin-top: 30px;
+    text-align: center;
 }
