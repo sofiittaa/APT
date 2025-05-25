@@ -9,13 +9,9 @@ Los incendios forestales arrasan territorios y también las noticias. Esta nota 
 
 Por Sofía Furtado y Arián Bagnasco | Montevideo, Uruguay 
 
- 
-
 Imagen referenciada al título (no me deja poner imágenes no sé porque...) 
 
 Muy breve descripción de la imagen y cita  
-
- 
 
 Las noticias arden 
 
