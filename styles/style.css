@@ -1,32 +1,5 @@
-.titulo {
-    background-color: #004e9c;
-    height: 70px;
-}
-
-.navbar1 {
-    color: rgb(255, 255, 255);
-    font-family: "Crimson Text", serif;
-    font-size: 45px;
-    margin-right: 350px;
-}
-
-.navbar2 {
-    color: rgb(255, 255, 255);
-    font-family: "Crimson Text", serif;
-    font-size: 45px;
-
-}
-
-.noticia {
-    text-align: center;
-    margin-top: 20px;
-
-}
-
-.Paginas {
-    text-align: center;
-    margin-top: 10px;
-    display: list-item;
+.logo {
+    margin-top: -1000px;
 }
 
 .footer {
@@ -37,4 +10,9 @@
     height: 50px;
     margin-top: 30px;
     text-align: center;
+}
+
+.link {
+    text-align: center;
+    margin-top: 290px;
 }
