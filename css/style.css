@@ -1,0 +1,69 @@
+body {
+  font-family: "Playfair Display", serif;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.logo {
+  margin-top: -30px;
+  width: 230px;
+  margin-left: -25px;
+  height: 140px;
+
+}
+
+.container-fluid {
+  margin-top: -20px;
+  margin-right: 100px;
+
+}
+
+.small {
+  margin-top: 10px;
+}
+
+.texto {
+  margin-top: 120px;
+  width: 50%;
+  margin-left: 200px;
+}
+
+.btn {
+  margin-top: 110px;
+
+}
+
+.incendio {
+  width: 100%;
+  margin-top: 50px;
+  color: #00000084;
+
+}
+
+.hero-overlay {
+  background-color: #00000084;
+  height: 450px;
+  text-align: center;
+}
+
+
+
+.navbar {
+  padding: 0px;
+  /*   padding-inline: 200px; */
+  font-family: "Playfair Display", serif;
+}
+
+.foot {
+  color: rgb(255, 255, 255);
+  font-family: "Crimson Text", serif;
+  font-size: 30px;
+  background-color: #289d13;
+  height: 50px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.hero {
+  margin: 2%;
+}
