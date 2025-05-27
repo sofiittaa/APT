@@ -1,0 +1,17 @@
+.logo {
+    margin-top: -25px;
+}
+
+.foot{
+    color: rgb(255, 255, 255);
+    font-family: "Crimson Text", serif;
+    font-size: 30px;
+    background-color: #289d13;
+    height: 50px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.hero{
+  margin: 2%;
+}
