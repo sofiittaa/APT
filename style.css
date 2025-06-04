@@ -103,34 +103,35 @@ text-align:center;
   padding-left: 20px;
 }
 
-.chart-container {
-  max-width:1000px;
-  margin: 2em auto;
+.chart-container{
+  max-width:600px;
 }
 
-#chartss{
-  max-width: 400px;
-  margin-left: auto;
-  border-right: 2px double green;
-  padding-right: 100px;
-  margin-right: 100px;
-}
 #map{
   max-width: 400px;
 margin-right: auto;
-  h1{
-    font-size:30px;
-  }
+}
+h2{
+  font-family: sans-serif;
+  font-weight:bold;
+  color:darkslategray;
+  font-size:12px;
+}
+#infoPanel{
+  font-weight: bold; 
+  text-align: center; 
+  color: #8b0000;
+  font-size:15px;
 }
 #cha{
   display: flex;
   justify-items: center;
-  align-items: center;
-  position:relative;
-
+    margin-left: 25%;
+  width: 50%;
 }
 #barChart{
   min-height: 200px;
+
 }
 #pulmon{
   border: 2px double green;
@@ -171,7 +172,11 @@ svg {
 }
 
 .nombre-pais {
-  transform: translateY(12px);
 
+  transform: translateY(15px);
+  
   display: block;
+}
+text{
+  font-size:20px;
 }
