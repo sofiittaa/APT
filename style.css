@@ -37,7 +37,7 @@ body {
 
 .small {
   margin-top: 10px;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .texto {
@@ -92,7 +92,9 @@ body {
 }
 
 .citas {
-  font-size: 20px;
+  font-size: 15px;
+  border-left: 5px double green;
+  padding-left: 10px;
 }
 
 .chart-container {
