@@ -94,3 +94,45 @@ body {
 .citas {
   font-size: 20px;
 }
+
+.chart-container {
+  max-width: 600px;
+  margin: 2em auto;
+}
+
+svg {
+  max-width: 400px;
+  display: block;
+  margin: 2em auto;
+}
+
+.info {
+  text-align: center;
+  margin-top: 1em;
+  font-size: 0.9em;
+}
+
+#uruguay,
+#argentina,
+#brasil {
+  cursor: pointer;
+  transition: fill 0.3s;
+}
+
+#uruguay:hover {
+  fill: #ff0000;
+}
+
+#argentina:hover {
+  fill: #ff8c00;
+}
+
+#brasil:hover {
+  fill: #ff4500;
+}
+
+.nombre-pais {
+  transform: translateY(12px);
+
+  display: block;
+}
