@@ -39,6 +39,10 @@ body {
   margin-top: 10px;
   font-size: 18px;
 }
+.textoimg{
+text-align:center;
+  font-size:12px;
+}
 
 .texto {
   margin-top: 20px;
@@ -93,8 +97,9 @@ body {
 
 .citas {
   font-size: 15px;
+  font-style:italic;
   border-left: 5px double green;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 .chart-container {
