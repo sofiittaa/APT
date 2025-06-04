@@ -1,0 +1,169 @@
+body {
+  font-family: "Playfair Display", serif;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+
+.logo {
+  margin-top: -30px;
+  width: 230px;
+  margin-left: -25px;
+  height: 140px;
+
+}
+
+.uno {
+  margin-left: -150px;
+}
+
+.dos {
+  margin-left: -90px;
+}
+
+.tres {
+  margin-left: -90px;
+}
+
+.cuatro {
+  margin-left: -100px;
+}
+
+.container-fluid {
+  margin-top: -20px;
+  margin-right: 100px;
+
+}
+
+.small {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.texto {
+  margin-top: 20px;
+  width: 90%;
+  margin-left: 20px;
+}
+
+.btn {
+  float: right;
+}
+
+.incendio {
+  width: 100%;
+  color: #00000084;
+
+}
+
+.hero-overlay {
+  background: linear-gradient(150deg,
+      rgb(228, 0, 0),
+      rgba(0, 0, 0, 0.8));
+  height: 250px;
+  width: 50%;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.navbar {
+  padding: 0px;
+  /*   padding-inline: 200px; */
+  font-family: "Playfair Display", serif;
+}
+
+.foot {
+  color: rgb(255, 255, 255);
+  font-family: "Crimson Text", serif;
+  font-size: 30px;
+  background-color: #289d13;
+  height: 50px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.hero {
+  margin: 2%;
+}
+
+#articulo {
+  margin-top: 200px;
+  align-items: center;
+}
+
+.citas {
+  font-size: 20px;
+}
+
+.chart-container {
+  max-width:1000px;
+  margin: 2em auto;
+}
+
+#chartss{
+  max-width: 400px;
+  margin-left: auto;
+  border-right: 2px double green;
+  padding-right: 100px;
+  margin-right: 100px;
+}
+#map{
+  max-width: 400px;
+margin-right: auto;
+  h1{
+    font-size:30px;
+  }
+}
+#cha{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  position:relative;
+
+}
+#barChart{
+  min-height: 200px;
+}
+#pulmon{
+  border: 2px double green;
+  padding: 5px;
+  margin-left: 25%;
+  width: 50%;
+  height: auto;
+}
+svg {
+  max-width: 400px;
+  display: block;
+  margin: 2em auto;
+}
+
+.info {
+  text-align: center;
+  margin-top: 1em;
+  font-size: 0.9em;
+}
+
+#uruguay,
+#argentina,
+#brasil {
+  cursor: pointer;
+  transition: fill 0.3s;
+}
+
+#uruguay:hover {
+  fill: #ff0000;
+}
+
+#argentina:hover {
+  fill: #ff8c00;
+}
+
+#brasil:hover {
+  fill: #ff4500;
+}
+
+.nombre-pais {
+  transform: translateY(12px);
+
+  display: block;
+}
