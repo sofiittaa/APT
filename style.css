@@ -37,7 +37,12 @@ body {
 
 .small {
   margin-top: 10px;
-  font-size: 14px;
+  font-size: 18px;
+}
+
+.textoimg {
+  text-align: center;
+  font-size: 12px;
 }
 
 .texto {
@@ -92,18 +97,16 @@ body {
 }
 
 .citas {
-  font-size: 20px;
+  font-size: 15px;
+  font-style: italic;
+  border-left: 5px double green;
+  margin-left: 20px;
+  padding-left: 20px;
 }
 
 .chart-container {
-
   max-width: 600px;
   margin: 2em auto;
-}
-
-
-max-width:1000px;
-margin: 2em auto;
 }
 
 #chartss {
@@ -117,10 +120,34 @@ margin: 2em auto;
 #map {
   max-width: 400px;
   margin-right: auto;
+}
 
-  h1 {
-    font-size: 30px;
-  }
+h1 {
+  font-size: 30px;
+}
+
+.chart-container {
+  max-width: 600px;
+}
+
+#map {
+  max-width: 400px;
+  margin-right: auto;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: darkslategray;
+  font-size: 12px;
+}
+
+#infoPanel {
+  font-weight: bold;
+  text-align: center;
+  color: #8b0000;
+  font-size: 15px;
+
 }
 
 #cha {
@@ -128,11 +155,14 @@ margin: 2em auto;
   justify-items: center;
   align-items: center;
   position: relative;
+  margin-left: 25%;
+  width: 50%;
 
 }
 
 #barChart {
   min-height: 200px;
+
 }
 
 #pulmon {
@@ -175,13 +205,12 @@ svg {
 }
 
 .nombre-pais {
-  transform: translateY(12px);
+
+  transform: translateY(15px);
 
   display: block;
-  <<<<<<< HEAD: css/style.css
 }
 
-=======
+text {
+  font-size: 20px;
 }
-
->>>>>>>cda1d1d2185b1a3018d91186e773e204808e54c6:style.css

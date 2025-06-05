@@ -10,10 +10,10 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <<<<<<< HEAD <link rel="stylesheet" href="css/style.css">
-        =======
-        <link rel="stylesheet" href="style.css">
-        >>>>>>> cda1d1d2185b1a3018d91186e773e204808e54c6
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="style.css">
+
 
 </head>
 
@@ -35,8 +35,8 @@
     <section class="text-black mt-5 pt-5">
         <div>
             <p class="small">Incendios y el medio ambiente</p>
-            <h2>Fuego en la pantalla: cómo los medios digitales narran los incendios forestales y su impacto ambiental
-            </h2>
+            <h1>Fuego en la pantalla: cómo los medios digitales narran los incendios forestales y su impacto ambiental
+            </h1>
             <div>
                 <p class="small">
                     Los incendios forestales arrasan territorios y también las noticias. Esta nota explora como los
@@ -64,15 +64,14 @@
             prensa digital, especialmente bajo una nueva mirada: la medioambiental.
         </p>
         <hr>
-        <p class="citas">El presidente Elías Montiel Carvajal de la compañía EcoTerra citó:</p>
-        <p class="small">
-            “Los incendios forestales no son solo una
+        <p class="citas">
+            &#60;&#60;Los incendios forestales no son solo una
             tragedia ambiental, son una emergencia que está afectando la vida de millones cada día.
             Los medios digitales tienen la responsabilidad urgente de contar esta realidad con la fuerza y la verdad que
             merece, para que la sociedad entienda la magnitud del daño y exija acciones inmediatas.
-            No podemos seguir viendo el fuego solo en pantalla, tenemos que actuar ya.”
+            No podemos seguir viendo el fuego solo en pantalla, tenemos que actuar ya.&#62;&#62; <bold>Elías Montiel
+                Carvajal, Presidente de la compañía EcoTerra</bold>
         </p>
-        <hr>
 
         <hr>
         <h3>
@@ -111,6 +110,7 @@
         </p>
 
         <div id="cha">
+
             <div id="chartss">
 
                 <div class="chart-container">
@@ -146,10 +146,46 @@
             falta
             de presencia científica en la cobertura mediática es un síntoma más del desequilibrio informativo:
         </p>
+        =======
+
+        <div class="chart-container">
+            <canvas id="barChart"></canvas>
+        </div>
+
+        <div class="chart-container">
+            <canvas id="donutChart"></canvas>
+        </div>
+        <!--<div id="map">
+        <h2>Mapa Interactivo - Regiones Analizadas</h2>
+        <svg viewBox="0 0 200 150">
+        <circle class="nombre-pais" id="uruguay" cx="50" cy="120" r="10" fill="#b22222" />
+        <text x="35" y="95" font-size="10">Uruguay</text>
+        
+        <circle class="nombre-pais" id="argentina" cx="90" cy="50" r="12" fill="#e25822" />
+        <text x="45" y="55" font-size="10">Argentina</text>
+        
+        <circle class="nombre-pais" id="brasil" cx="120" cy="40" r="15" fill="#ff6347" />
+        <text x="105" y="35" font-size="10">Brasil</text>
+    </svg>
+    <div id="infoPanel"></div>
+</div>
+-->
+        </div>
+
+        <hr>
+
+
         <p class="citas">
-            “Cuando los incendios se explican sin ciencia, se pierde la dimensión real del daño. No es solo fuego, es el
+            &#60;&#60;Cuando los incendios se explican sin ciencia, se pierde la dimensión real del daño. No es solo
+            fuego, es el
             colapso
-            de ciclos ecológicos completos. El periodismo ambiental tiene que animarse a complejizar, no a simplificar.”
+            de ciclos ecológicos completos. El periodismo ambiental tiene que animarse a complejizar, no a
+            simplificar.&#62;&#62;
+            señala Mariana Lezica, doctora en ecología y docente en la Universidad Federal de Río Grande del Sur,
+            alegando a la
+            falta
+            de presencia científica en la cobertura mediática es un síntoma más del desequilibrio informativo.
+
         </p>
         <hr>
         <h3>Uso de imágenes e infografías</h3>
@@ -171,9 +207,15 @@
             medios internacionales que en portales regionales.
             Esto revela un desfase informativo y una oportunidad periodística aún no plenamente aprovechada.
         </p>
+
         <img id="pulmon" src="img/.png">
         <p class="small" style="text-align:center;">
             Proteger y Restaurar los bosques| WWF
+
+            <img id="pulmon" src="img/pulmon.png">
+        <p class="textoimg" style="text-align:center;">
+            Proteger y Restaurar los bosques
+
         </p>
         <hr>
         <h3>El rol de las noticias digitales en el medio ambiente</h3>
@@ -186,10 +228,11 @@
             ambiental rigurosa y atractiva, sin caer en el alarmismo ni el tecnicismo extremo.
         </p>
         <hr>
-        <p class="citas">Valeria Ortiz, cofundadora de EcoTerra, añadió:</p>
-        <p class="small">
-            “Necesitamos dejar de tratar los incendios como accidentes y empezar a entenderlos como consecuencia de un
-            modelo ambiental fallido. El rol del periodismo en esa toma de conciencia es crucial.”
+        <p class="citas">
+            &#60;&#60;Necesitamos dejar de tratar los incendios como accidentes y empezar a entenderlos como
+            consecuencia de un
+            modelo ambiental fallido. El rol del periodismo en esa toma de conciencia es crucial. &#62;&#62;<br>
+            Valeria Ortiz, cofundadora de EcoTerra
         </p>
         <hr>
         <h3>Más que humo</h3>
@@ -233,7 +276,7 @@
             incluso la verdad, contar bien también es una forma de resistir.
         </p>
         <div class="accordion" id="accordionExample">
-            <<<<<<< HEAD <div class="accordion-item">
+            <div class="accordion-item">
                 <h2 class="accordion-header">
                     <!--Cambiar bg-success-subtle por text-bg-success para el otro estilo-->
                     <button class="accordion-button bg-success-subtle" type="button" data-bs-toggle="collapse"
@@ -272,8 +315,33 @@
                             </ul>
                         </div>
 
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <!--Cambiar bg-success-subtle por text-bg-success para el otro estilo-->
+                                <button class="accordion-button bg-success" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Referencias y bibliografía
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">Refe 1</li>
+                                        <li class="list-group-item">Refe 2</li>
+                                        <li class="list-group-item">Refe 3</li>
+                                        <li class="list-group-item">Refe 4</li>
+                                        <li class="list-group-item">Refe 5</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
+    </section>
+
+
+    </div>
+    </div>
     </section>
     <h2>Incendios Forestales y Medios Digitales</h2>
 
