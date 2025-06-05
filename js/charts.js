@@ -62,4 +62,5 @@ document.getElementById('argentina').addEventListener('click', () => {
 
 document.getElementById('brasil').addEventListener('click', () => {
     infoPanel.textContent = 'Incendios en Brasil: Datos simulados sobre incendios en la Amazonia y otras regiones afectadas.';
+
 });

@@ -37,7 +37,7 @@ body {
 
 .small {
   margin-top: 10px;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .texto {
@@ -96,8 +96,51 @@ body {
 }
 
 .chart-container {
+
   max-width: 600px;
   margin: 2em auto;
+}
+
+
+max-width:1000px;
+margin: 2em auto;
+}
+
+#chartss {
+  max-width: 400px;
+  margin-left: auto;
+  border-right: 2px double green;
+  padding-right: 100px;
+  margin-right: 100px;
+}
+
+#map {
+  max-width: 400px;
+  margin-right: auto;
+
+  h1 {
+    font-size: 30px;
+  }
+}
+
+#cha {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+
+}
+
+#barChart {
+  min-height: 200px;
+}
+
+#pulmon {
+  border: 2px double green;
+  padding: 5px;
+  margin-left: 25%;
+  width: 50%;
+  height: auto;
 }
 
 svg {
@@ -135,4 +178,10 @@ svg {
   transform: translateY(12px);
 
   display: block;
+  <<<<<<< HEAD: css/style.css
 }
+
+=======
+}
+
+>>>>>>>cda1d1d2185b1a3018d91186e773e204808e54c6:style.css
